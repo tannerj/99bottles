@@ -33,4 +33,8 @@ class Bottles
     end
     requested_verses
   end
+
+  def song
+    verses(99,0)
+  end
 end
